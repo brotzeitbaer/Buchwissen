@@ -15,10 +15,10 @@ int main()
 		 << "float benoetigt : " << sizeof (float)  << " Bytes" << endl
 		 << "double benoetigt: " << sizeof (double) << " Bytes" << endl;
 	
-	/*mit "sizeof" können wir den speicherbedarf ausgeben.
-	pro byte kann man 356 werte darstellen.
+	/*mit "sizeof" kÃ¶nnen wir den speicherbedarf ausgeben.
+	pro byte kann man 256 werte darstellen.
 	2 bytes sind dann 256 * 256 = 65536.
-	bei "signed" verschiebt sich das ganze natrülich ins negative.*/
+	bei "signed" verschiebt sich das ganze natrÃ¼lich ins negative.*/
 	
 	return 0;
 	
