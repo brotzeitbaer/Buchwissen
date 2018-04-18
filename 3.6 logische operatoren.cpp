@@ -18,8 +18,8 @@ int main()
 	else if ((auswahl == 't') || (auswahl == 'T')) 
 	
 	/* die zwei "||" sind logische operatoren und
-	bedeuten "oder". die klammern in den klammern sind eigentlich hier nicht nötig aber
-	helfen zu verstehen was zuerst ausgeführt wird. */
+	bedeuten "oder". die klammern in den klammern sind eigentlich hier nicht nÃ¶tig aber
+	helfen zu verstehen was zuerst ausgefÃ¼hrt wird. */
 	
 	{
 	cout << "teamspiel\n";
@@ -31,5 +31,5 @@ int main()
 	}
 	
 	return 0;
-	// ein anderer logischer operator wäre "&&" und heißst "und".
+	// ein anderer logischer operator wÃ¤re "&&" und heiÃŸst "und".
 }
