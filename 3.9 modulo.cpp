@@ -14,7 +14,7 @@ int main()
 	cout << "bitte divisor eingeben: \n";
 	cin  >> divisor;
 	
-	//wie man hier sieht, kann man auch direkt beim cout rechnungen durchführen
+	//wie man hier sieht, kann man auch direkt beim cout rechnungen durchfÃ¼hren
 	cout << "das ergebnis lautet: " << zahl/divisor << endl << endl;
 	cout << "der rest lautet: "     << zahl%divisor << endl;
 	
