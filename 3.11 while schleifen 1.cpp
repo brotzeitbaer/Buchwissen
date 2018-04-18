@@ -7,7 +7,7 @@ int main()
 	
 	int auswahl = 0;
 	
-	/*die while schleife wird so lange ausgeführt bis die zahl drei eingegeben wird,
+	/*die while schleife wird so lange ausgefÃ¼hrt bis die zahl drei eingegeben wird,
 	danach beendet sich die schleife.*/
 	while (auswahl != 3)
 	{
