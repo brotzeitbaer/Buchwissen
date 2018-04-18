@@ -7,7 +7,7 @@ int main ()
 	
 	for (int hoch = 0, runter = 20; hoch <=10; hoch++, runter -= 2)
 	
-	/*for schleifen können auch mit mehr als einer variable
+	/*for schleifen kÃ¶nnen auch mit mehr als einer variable
 	initialisiert werden.*/
 	
 	{
