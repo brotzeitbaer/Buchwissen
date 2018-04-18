@@ -19,7 +19,7 @@ int main()
 	dem komma steht, weggelassen.
 	aus 37,5 wird also 37. dies ist die methode die in c++ verwendet wird*/
 	
-	/*übrigends werden in variablen zuweisungen immer von rechts nach links gemacht,
+	/*Ã¼brigends werden in variablen zuweisungen immer von rechts nach links gemacht,
 	d.h. dass zuerst punkte*fakor gerechnet wird, dann in den int gecasted wird,
 	dann das ergebnis der variable "gesamtpunkte" zugewiesen wird.*/
 	
@@ -27,5 +27,5 @@ int main()
 	
 	return 0; 
 	
-} /*die methode die in c verwendet wird sähe so aus:
+} /*die methode die in c verwendet wird sÃ¤he so aus:
 gesamtpunkte = (int) (punkte*faktor);, doch wir verwenden die methode die in c++ verwendet wird.*/
