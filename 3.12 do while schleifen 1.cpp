@@ -12,7 +12,7 @@ int main()
 	
 	/*der einfache unterscheid der do/while schleife zur normalen while schleife ist:
 	dass bei der do/while schleife der codeblock bereits einmal ausgegeben wird BEVOR
-	er geprüft wird. also auch wenn die bedingung nicht wahr ist,
+	er geprÃ¼ft wird. also auch wenn die bedingung nicht wahr ist,
 	wird der block einmal ausgegeben.*/
 	
 	do 
