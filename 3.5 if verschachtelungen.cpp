@@ -21,7 +21,7 @@ int main()
 	/*falls dieser if codeblock zutrifft,
 	dann wird eine weitere if bedingung innerhalb dieses blocks gestartet.
 	dies nennt man verschachtelung.(nicht vergessen diese if bedingung muss
-	die unten stehende if bedingung umschließen, da sie ja zu dieser dazu gehört.*/
+	die unten stehende if bedingung umschlieÃŸen, da sie ja zu dieser dazu gehÃ¶rt.*/
 	
 	{
 		cout << "multiplayer:\n" << "(g) gegeneinander? " << "(p)gegen den pc?\n";
