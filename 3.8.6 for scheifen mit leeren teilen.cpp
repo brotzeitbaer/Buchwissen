@@ -21,8 +21,8 @@ int main()
 	}
 	
 	/* bei dieser schleife wird alles weg gelassen
-	würde man unten nicht die bedingung einfügen,
-	so würde die schleife endlos laufen*/
+	wÃ¼rde man unten nicht die bedingung einfÃ¼gen,
+	so wÃ¼rde die schleife endlos laufen*/
 	for (;;)
 	{
 		punkte++;
