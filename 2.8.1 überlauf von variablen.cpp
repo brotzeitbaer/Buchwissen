@@ -6,10 +6,10 @@ int main()
 {
 	
 	unsigned short ueberlauf = 65535; /* ein short hat 2 bytes,
-	(256 * 156 = 65535), wenn man man nun eins dazu zählt,
-	dann fängt der wert wieder bei 0 an ( durch unsigned).
-	wenn man nun davon wieder 10 runter zählt,
-	geht es bis zur 0 und fängt wieder von der 65535 an runter zu zählen.*/
+	(256 * 156 = 65535), wenn man man nun eins dazu zÃ¤hlt,
+	dann fÃ¤ngt der wert wieder bei 0 an ( durch unsigned).
+	wenn man nun davon wieder 10 runter zÃ¤hlt,
+	geht es bis zur 0 und fÃ¤ngt wieder von der 65535 an runter zu zÃ¤hlen.*/
 	
 	cout << "vor dem ueberlauf: " << ueberlauf << endl;
 	
