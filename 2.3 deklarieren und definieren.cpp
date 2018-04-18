@@ -20,8 +20,8 @@ int main (void)
 
 	int iflag = 10;
 	float fbewegen = 12;
-	char cspieler = 'k'; // bei char gehört immer ein "'" vor und nach dem zeichen.
-	bool baktivatet = true; // indem man vor den variablennamen den anfangsbuchstaben des variablentyps schreibt, weis man später um welche variable es sich handelt.
+	char cspieler = 'k'; // bei char gehÃ¶rt immer ein "'" vor und nach dem zeichen.
+	bool baktivatet = true; // indem man vor den variablennamen den anfangsbuchstaben des variablentyps schreibt, weis man spÃ¤ter um welche variable es sich handelt.
 
 
 	return 0;	
