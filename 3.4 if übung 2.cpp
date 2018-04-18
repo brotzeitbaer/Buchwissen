@@ -17,10 +17,10 @@ int main()
 	cin	 >> variable;
 	} 
 	
-	/*normal wird bei einer if bedingung nur die nächste zeile
-	ausgeführt bzw. übersprungen.
-	durch die geschweiften klammern wird der ganze codeblock ausgeführt bzw.
-	übersprungen.*/
+	/*normal wird bei einer if bedingung nur die nÃ¤chste zeile
+	ausgefÃ¼hrt bzw. Ã¼bersprungen.
+	durch die geschweiften klammern wird der ganze codeblock ausgefÃ¼hrt bzw.
+	Ã¼bersprungen.*/
 	
 	else
 	{
