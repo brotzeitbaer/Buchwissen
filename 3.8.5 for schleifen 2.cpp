@@ -2,17 +2,15 @@
 
 using namespace std;
 
-int main ()
+int main()
 {
-	
-	for (int hoch = 0, runter = 20; hoch <=10; hoch++, runter -= 2)
-	
-	/*for schleifen können auch mit mehr als einer variable
-	initialisiert werden.*/
-	
+	// For schleifen können auch mit mehr als einer Variablen initialisiert werden.
+	// Mit Hilfe von logischen Operatoren mehrere Bedingungen gleichzeitig prüfen.
+
+	for (int up = 0, down = 20; up <= 10 && down >= 0; up++, down -= 2)
 	{
-		cout << "hoch : " << hoch << " - runter : " << runter << endl;
+		cout << "up: " << up << " - down: " << down << endl;
 	}
-	
+
 	return 0;
 }
