@@ -33,8 +33,7 @@ int main()
 	break;
 	default:
 	cout << "Falsche Eingabe\n" << endl;
-	break;
-	}
+	} // Bei default ist kein break nötig, da es der letzte Codeblock ist.
 
 	cout << "Ende" << endl;
 	
