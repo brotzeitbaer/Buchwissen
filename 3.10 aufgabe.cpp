@@ -4,37 +4,53 @@ using namespace std;
 
 int main()
 {
-	
-	int count;
-	int half;
-	int half2;
-	
-	cout << " bitte zahl eingeben: \n";
-	cin  >> count;
-	
-	half  = count/2;
-	half2 = count%2;
-	half  = half+half2;
-	
-	/*half = half + 1 sollte auch funktionieren
-	und dafür zeile 16 und 17 weg lassen.*/
-	
-	for (; count>0; count--)
+
+	int zahl = 0;
+	int haelfte = 0;
+
+	cout << "Zahl eingeben um Countdown zu starten: " << endl;
+	cin >> zahl;
+
+	haelfte = zahl / 2;
+
+	if (zahl % 2 == 0)
 	{
-	cout << count << endl;
+		for (; zahl > 0;)
+		{
+
+			if (zahl == haelfte)
+			{
+				cout << "Haelfte erreicht. " << "(" << zahl << ")" << endl;
+
+				zahl--;
+
+			}
+
+			zahl--;
+
+			cout << "Countdown: " << zahl+1 << endl;
+
+		}
 	
-	if (half >= count)
+	}
+	else
 	{
-	cout << "haelfte erreicht\n";
-	break;
+		for (; zahl > 0;)
+		{
+
+			if (zahl == haelfte)
+			{
+				cout << "Haelfte erreicht. " << "(" << zahl+0.5 << ")" << endl;
+
+				zahl--;
+			}
+
+			zahl--;
+
+			cout << "Countdown: " << zahl+1 << endl;
+		}
 	}
-	}
-	for (; half>0; half--)
-	{
-	cout << half-1 << endl;
-	}
-	
-	
-	
+
 	return 0;
+
 }
