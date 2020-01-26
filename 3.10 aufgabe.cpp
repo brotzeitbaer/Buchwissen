@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-	//Countdownzähler für geraded und ungerade Zahlen. (Aufgabe 3.10 im Buch).
+	//Countdownzähler für gerade und ungerade Zahlen. (Aufgabe 3.10 im Buch).
 	
 	int zahl = 0;
 	int haelfte = 0;
