@@ -2,68 +2,36 @@
 
 using namespace std;
 
-int main ()
+int main()
 {
-	
-	int hoehe, hoehe2, breite, breite2, breite3;
-	
-	cout << "hoehe eingeben: " << endl;
-	cin  >> hoehe;
-	
-	cout << "breite eingeben: " << endl;
-	cin  >> breite;
-	
-	hoehe2 = hoehe/2;
-	breite2 = breite/2;
-	breite3 = breite + 1;
+	int breite = 0;
+	int hoehe = 0;
 
-	for (int x = 0; hoehe > x; x++)
+do
+{ 
+	cout << "Breite: ";
+	cin >> breite;
+
+	cout << "Hoehe: ";
+	cin >> hoehe;
+
+} while ((breite % 2 == 0) || (hoehe % 2 == 0));
+
+	for (int y = 0; y < hoehe; y++)
 	{
-		if (hoehe%2 == 0 && hoehe2 == x)
+		for (int x = 0; x < breite; x++)
 		{
-			for (;breite3 > 0;)
-			{
-			cout << "-";
-			breite3--;
+			if (y == hoehe / 2)
+				cout << "-";
+			else if (x == breite / 2)
+				cout << "|";
+			else
+				cout << "X";
 			
-			if (breite3 == 1)
-			{
-			cout << "-";
-			cout << endl;
-			breite3--;
-			}
-			}
 		}
-		else if ( hoehe%2 == 1 && hoehe2 == x)
-		{
-			for (;breite3 - 1 > 0;)
-			{
-			cout << "-";
-			breite3--;
-			
-			if (breite3 - 1 == 1)
-			{
-			cout << "-";
-			cout << endl;
-			breite3--;
-			}
-			}
-		}
-	
-	for (int y = 0; breite > y; y++)
-	{
-		if (breite%2 == 0 && breite2 == y)
-		{
-			cout << "|";
-		}
-		else if (breite%2 == 1 && breite2 == y)
-		{
-			cout << "|";
-			breite--;
-		}
-		cout << "x";
-	}
 		cout << endl;
 	}
+
 	return 0;
+
 }
