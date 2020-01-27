@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//Fehlerquelltext korrigiert und ein wenig verbssert.
+
 int main()
 {
 	int breite = 0;
